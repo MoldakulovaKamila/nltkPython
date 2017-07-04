@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f7d2e7-3eb6-4e55-a88a-6d2b0d6c0620" name="Default" comment="" />
+    <list default="true" id="70f7d2e7-3eb6-4e55-a88a-6d2b0d6c0620" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfs/auezov_mukhtar_k_org_ansyzdyn_kuni.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/database.db" afterPath="$PROJECT_DIR$/db/database.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_ngrams.py" afterPath="$PROJECT_DIR$/corpus_ngrams.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv's/bigram.csv" afterPath="$PROJECT_DIR$/csv's/bigram.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv's/fivegram.csv" afterPath="$PROJECT_DIR$/csv's/fivegram.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv's/fourgram.csv" afterPath="$PROJECT_DIR$/csv's/fourgram.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv's/trigram.csv" afterPath="$PROJECT_DIR$/csv's/trigram.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv's/unigram.csv" afterPath="$PROJECT_DIR$/csv's/unigram.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_from_pdf.py" afterPath="$PROJECT_DIR$/read_from_pdf.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +22,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/nltk$tokentest.coverage" NAME="tokentest Coverage Results" MODIFIED="1496229099124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nltk$csvfile.coverage" NAME="csvfile Coverage Results" MODIFIED="1496995813350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nltk$tagging.coverage" NAME="tagging Coverage Results" MODIFIED="1496416109699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nltk$tokenstopwords.coverage" NAME="tokenstopwords Coverage Results" MODIFIED="1496811706633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltkPython$read_from_pdf.coverage" NAME="read_from_pdf Coverage Results" MODIFIED="1498902285290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nltk$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1497586017067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nltk$test.coverage" NAME="test Coverage Results" MODIFIED="1497586108906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nltk$read_from_pdf.coverage" NAME="read_from_pdf Coverage Results" MODIFIED="1497853122145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nltk$unigram.coverage" NAME="unigram Coverage Results" MODIFIED="1496643381231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nltk$corpus_ngrams.coverage" NAME="corpus_ngrams Coverage Results" MODIFIED="1497863256254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltk$read_from_pdf.coverage" NAME="read_from_pdf Coverage Results" MODIFIED="1497853122145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltkPython$corpus_ngrams.coverage" NAME="corpus_ngrams Coverage Results" MODIFIED="1499207023490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltk$tagging.coverage" NAME="tagging Coverage Results" MODIFIED="1496416109699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltk$tokenstopwords.coverage" NAME="tokenstopwords Coverage Results" MODIFIED="1496811706633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltk$test.coverage" NAME="test Coverage Results" MODIFIED="1497586108906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nltk$csvfile.coverage" NAME="csvfile Coverage Results" MODIFIED="1496995813350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,10 +48,35 @@
       <file leaf-file-name="tokenstopwords.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tokenstopwords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fivegram.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv's/fivegram.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_from_pdf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read_from_pdf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2055">
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1498902575742" expanded="true" signature="3092:3141" ph="INSERT INTO unigram... " />
+                <marker date="1498902575742" expanded="true" signature="3329:3387" ph="INSERT INTO bigram... " />
+                <marker date="1498902575742" expanded="true" signature="3584:3652" ph="INSERT INTO trigram... " />
+                <marker date="1498902575742" expanded="true" signature="3858:3937" ph="INSERT INTO fourgram... " />
+                <marker date="1498902575742" expanded="true" signature="4178:4266" ph="INSERT INTO fivegram... " />
               </folding>
             </state>
           </provider>
@@ -47,53 +85,35 @@
       <file leaf-file-name="corpus_ngrams.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/corpus_ngrams.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="239" column="27" lean-forward="true" selection-start-line="239" selection-start-column="27" selection-end-line="239" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="341" column="16" lean-forward="true" selection-start-line="341" selection-start-column="16" selection-end-line="341" selection-end-column="16" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <marker date="1497860449717" expanded="true" signature="2490:2508" ph="DROP TABLE u... " />
-                <marker date="1497860449717" expanded="true" signature="2533:2550" ph="DROP TABLE b... " />
-                <marker date="1497860449717" expanded="true" signature="2575:2593" ph="DROP TABLE t... " />
-                <marker date="1497860449717" expanded="true" signature="2618:2637" ph="DROP TABLE f... " />
-                <marker date="1497860449717" expanded="true" signature="2662:2681" ph="DROP TABLE f... " />
-                <marker date="1497860449717" expanded="true" signature="2766:2817" ph="CREATE TABLE... words" />
-                <marker date="1497860449717" expanded="true" signature="2842:2905" ph="CREATE TABLE... bigram" />
-                <marker date="1497860449717" expanded="true" signature="2930:3006" ph="CREATE TABLE... trigram" />
-                <marker date="1497860449717" expanded="true" signature="3031:3121" ph="CREATE TABLE... fourgram" />
-                <marker date="1497860449717" expanded="true" signature="3146:3248" ph="CREATE TABLE... fivegram" />
-                <marker date="1497860449717" expanded="true" signature="3424:3473" ph="INSERT INTO words... " />
-                <marker date="1497860449717" expanded="true" signature="3652:3710" ph="INSERT INTO bigram... " />
-                <marker date="1497860449717" expanded="true" signature="3898:3966" ph="INSERT INTO words... " />
-                <marker date="1497860449717" expanded="true" signature="4163:4242" ph="INSERT INTO fourgram... " />
-                <marker date="1497860449717" expanded="true" signature="4472:4560" ph="INSERT INTO fivegram... " />
-                <marker date="1497860449717" expanded="true" signature="4735:4755" ph="SELECT * FRO... bigram" />
-                <marker date="1497860449717" expanded="true" signature="4891:4912" ph="SELECT * FRO... trigram" />
-                <marker date="1497860449717" expanded="true" signature="5058:5080" ph="SELECT * FRO... fourgram" />
-                <marker date="1497860449717" expanded="true" signature="5238:5260" ph="SELECT * FRO... fivegram" />
-                <marker date="1497860449717" expanded="true" signature="5497:5518" ph="SELECT * FRO... unigram" />
-                <marker date="1497860449717" expanded="true" signature="5916:5936" ph="SELECT * FRO... bigram" />
-                <marker date="1497860449717" expanded="true" signature="6357:6378" ph="SELECT * FRO... trigram" />
-                <marker date="1497860449717" expanded="true" signature="6813:6835" ph="SELECT * FRO... trigram" />
-                <marker date="1497860449717" expanded="true" signature="7283:7305" ph="SELECT * FRO... fivegram" />
-                <marker date="1497860449717" expanded="true" signature="7804:7825" ph="SELECT * FRO... unigram" />
+                <element signature="e#5538#5933#0" expanded="false" />
+                <element signature="e#5956#6372#0" expanded="false" />
+                <element signature="e#6396#6826#0" expanded="false" />
+                <element signature="e#6851#7295#0" expanded="false" />
+                <element signature="e#7320#7778#0" expanded="false" />
+                <element signature="e#8341#8362#0" expanded="false" />
+                <marker date="1499207023445" expanded="true" signature="5603:5624" ph="SELECT * FRO... unigram" />
+                <marker date="1499207023445" expanded="true" signature="6021:6041" ph="SELECT * FRO... bigram" />
+                <marker date="1499207023445" expanded="true" signature="6461:6482" ph="SELECT * FRO... trigram" />
+                <marker date="1499207023445" expanded="true" signature="6916:6938" ph="SELECT * FRO... fourgram" />
+                <marker date="1499207023445" expanded="true" signature="7385:7407" ph="SELECT * FRO... fivegram" />
+                <marker date="1499207023445" expanded="true" signature="11690:11711" ph="SELECT * FRO... unigram" />
+                <marker date="1499207023445" expanded="true" signature="12067:12087" ph="SELECT * FRO... bigram" />
+                <marker date="1499207023445" expanded="true" signature="12453:12474" ph="SELECT * FRO... trigram" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_from_pdf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_from_pdf.py">
+      <file leaf-file-name="distance.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/nltk/metrics/distance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1497853149742" expanded="true" signature="2384:2433" ph="INSERT INTO unigram... " />
-                <marker date="1497853149742" expanded="true" signature="2612:2670" ph="INSERT INTO bigram... " />
-                <marker date="1497853149742" expanded="true" signature="2858:2926" ph="INSERT INTO trigram... " />
-                <marker date="1497853149742" expanded="true" signature="3123:3202" ph="INSERT INTO fourgram... " />
-                <marker date="1497853149742" expanded="true" signature="3432:3520" ph="INSERT INTO fivegram... " />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +121,18 @@
       <file leaf-file-name="unigram.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csv's/unigram.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="2771" column="1" lean-forward="false" selection-start-line="2771" selection-start-column="0" selection-end-line="2771" selection-end-column="1" />
+            <state relative-caret-position="-12021">
+              <caret line="2389" column="10" lean-forward="true" selection-start-line="2389" selection-start-column="10" selection-end-line="2389" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trigram.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv's/trigram.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +150,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>адам</find>
+      <find>f</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,10 +180,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="24" />
-    <option name="width" value="1275" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,25 +201,26 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -199,25 +230,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nltk" />
+              <option name="myItemId" value="nltkPython" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -227,12 +244,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Django/news/mynews" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
   </component>
@@ -525,39 +541,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="24" width="1275" height="744" extended-state="4" />
+    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22864117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2689394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58709675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08548387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5951613" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08548387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22864117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,64 +572,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csvfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="412" lean-forward="false" selection-start-line="0" selection-start-column="412" selection-end-line="0" selection-end-column="412" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/corpus_ngrams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
           <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1497860449717" expanded="true" signature="2490:2508" ph="DROP TABLE u... " />
-            <marker date="1497860449717" expanded="true" signature="2533:2550" ph="DROP TABLE b... " />
-            <marker date="1497860449717" expanded="true" signature="2575:2593" ph="DROP TABLE t... " />
-            <marker date="1497860449717" expanded="true" signature="2618:2637" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2662:2681" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2766:2817" ph="CREATE TABLE... words" />
-            <marker date="1497860449717" expanded="true" signature="2842:2905" ph="CREATE TABLE... bigram" />
-            <marker date="1497860449717" expanded="true" signature="2930:3006" ph="CREATE TABLE... trigram" />
-            <marker date="1497860449717" expanded="true" signature="3031:3121" ph="CREATE TABLE... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="3146:3248" ph="CREATE TABLE... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="3424:3473" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="3652:3710" ph="INSERT INTO bigram... " />
-            <marker date="1497860449717" expanded="true" signature="3898:3966" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="4163:4242" ph="INSERT INTO fourgram... " />
-            <marker date="1497860449717" expanded="true" signature="4472:4560" ph="INSERT INTO fivegram... " />
-            <marker date="1497860449717" expanded="true" signature="4735:4755" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="4891:4912" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="5058:5080" ph="SELECT * FRO... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="5238:5260" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="5497:5518" ph="SELECT * FRO... unigram" />
-            <marker date="1497860449717" expanded="true" signature="5916:5936" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="6357:6378" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="6813:6835" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="7283:7305" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="7804:7825" ph="SELECT * FRO... unigram" />
+            <element signature="e#5538#5933#0" expanded="false" />
+            <element signature="e#5956#6372#0" expanded="false" />
+            <element signature="e#6396#6826#0" expanded="false" />
+            <element signature="e#6851#7295#0" expanded="false" />
+            <element signature="e#7320#7778#0" expanded="false" />
+            <element signature="e#8341#8362#0" expanded="false" />
+            <marker date="1499207023445" expanded="true" signature="5603:5624" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="6021:6041" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="6461:6482" ph="SELECT * FRO... trigram" />
+            <marker date="1499207023445" expanded="true" signature="6916:6938" ph="SELECT * FRO... fourgram" />
+            <marker date="1499207023445" expanded="true" signature="7385:7407" ph="SELECT * FRO... fivegram" />
+            <marker date="1499207023445" expanded="true" signature="11690:11711" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="12067:12087" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="12453:12474" ph="SELECT * FRO... trigram" />
           </folding>
         </state>
       </provider>
@@ -640,9 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,31 +658,20 @@
           <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1497860449717" expanded="true" signature="2490:2508" ph="DROP TABLE u... " />
-            <marker date="1497860449717" expanded="true" signature="2533:2550" ph="DROP TABLE b... " />
-            <marker date="1497860449717" expanded="true" signature="2575:2593" ph="DROP TABLE t... " />
-            <marker date="1497860449717" expanded="true" signature="2618:2637" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2662:2681" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2766:2817" ph="CREATE TABLE... words" />
-            <marker date="1497860449717" expanded="true" signature="2842:2905" ph="CREATE TABLE... bigram" />
-            <marker date="1497860449717" expanded="true" signature="2930:3006" ph="CREATE TABLE... trigram" />
-            <marker date="1497860449717" expanded="true" signature="3031:3121" ph="CREATE TABLE... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="3146:3248" ph="CREATE TABLE... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="3424:3473" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="3652:3710" ph="INSERT INTO bigram... " />
-            <marker date="1497860449717" expanded="true" signature="3898:3966" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="4163:4242" ph="INSERT INTO fourgram... " />
-            <marker date="1497860449717" expanded="true" signature="4472:4560" ph="INSERT INTO fivegram... " />
-            <marker date="1497860449717" expanded="true" signature="4735:4755" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="4891:4912" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="5058:5080" ph="SELECT * FRO... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="5238:5260" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="5497:5518" ph="SELECT * FRO... unigram" />
-            <marker date="1497860449717" expanded="true" signature="5916:5936" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="6357:6378" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="6813:6835" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="7283:7305" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="7804:7825" ph="SELECT * FRO... unigram" />
+            <element signature="e#5538#5933#0" expanded="false" />
+            <element signature="e#5956#6372#0" expanded="false" />
+            <element signature="e#6396#6826#0" expanded="false" />
+            <element signature="e#6851#7295#0" expanded="false" />
+            <element signature="e#7320#7778#0" expanded="false" />
+            <element signature="e#8341#8362#0" expanded="false" />
+            <marker date="1499207023445" expanded="true" signature="5603:5624" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="6021:6041" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="6461:6482" ph="SELECT * FRO... trigram" />
+            <marker date="1499207023445" expanded="true" signature="6916:6938" ph="SELECT * FRO... fourgram" />
+            <marker date="1499207023445" expanded="true" signature="7385:7407" ph="SELECT * FRO... fivegram" />
+            <marker date="1499207023445" expanded="true" signature="11690:11711" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="12067:12087" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="12453:12474" ph="SELECT * FRO... trigram" />
           </folding>
         </state>
       </provider>
@@ -729,9 +687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,31 +718,20 @@
           <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1497860449717" expanded="true" signature="2490:2508" ph="DROP TABLE u... " />
-            <marker date="1497860449717" expanded="true" signature="2533:2550" ph="DROP TABLE b... " />
-            <marker date="1497860449717" expanded="true" signature="2575:2593" ph="DROP TABLE t... " />
-            <marker date="1497860449717" expanded="true" signature="2618:2637" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2662:2681" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2766:2817" ph="CREATE TABLE... words" />
-            <marker date="1497860449717" expanded="true" signature="2842:2905" ph="CREATE TABLE... bigram" />
-            <marker date="1497860449717" expanded="true" signature="2930:3006" ph="CREATE TABLE... trigram" />
-            <marker date="1497860449717" expanded="true" signature="3031:3121" ph="CREATE TABLE... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="3146:3248" ph="CREATE TABLE... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="3424:3473" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="3652:3710" ph="INSERT INTO bigram... " />
-            <marker date="1497860449717" expanded="true" signature="3898:3966" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="4163:4242" ph="INSERT INTO fourgram... " />
-            <marker date="1497860449717" expanded="true" signature="4472:4560" ph="INSERT INTO fivegram... " />
-            <marker date="1497860449717" expanded="true" signature="4735:4755" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="4891:4912" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="5058:5080" ph="SELECT * FRO... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="5238:5260" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="5497:5518" ph="SELECT * FRO... unigram" />
-            <marker date="1497860449717" expanded="true" signature="5916:5936" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="6357:6378" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="6813:6835" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="7283:7305" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="7804:7825" ph="SELECT * FRO... unigram" />
+            <element signature="e#5538#5933#0" expanded="false" />
+            <element signature="e#5956#6372#0" expanded="false" />
+            <element signature="e#6396#6826#0" expanded="false" />
+            <element signature="e#6851#7295#0" expanded="false" />
+            <element signature="e#7320#7778#0" expanded="false" />
+            <element signature="e#8341#8362#0" expanded="false" />
+            <marker date="1499207023445" expanded="true" signature="5603:5624" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="6021:6041" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="6461:6482" ph="SELECT * FRO... trigram" />
+            <marker date="1499207023445" expanded="true" signature="6916:6938" ph="SELECT * FRO... fourgram" />
+            <marker date="1499207023445" expanded="true" signature="7385:7407" ph="SELECT * FRO... fivegram" />
+            <marker date="1499207023445" expanded="true" signature="11690:11711" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="12067:12087" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="12453:12474" ph="SELECT * FRO... trigram" />
           </folding>
         </state>
       </provider>
@@ -823,9 +768,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,9 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -878,9 +819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,126 +881,112 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/csv's/fivegram.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv's/trigram.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csv's/fourgram.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1746">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/PyPDF2/pdf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1068" column="0" lean-forward="true" selection-start-line="1068" selection-start-column="0" selection-end-line="1068" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/PyPDF2/pdf.py" />
     <entry file="file://$PROJECT_DIR$/csv's/bigram.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66649">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/nltk/metrics/distance.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1247971764/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/csv's/fivegram.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/nltk/tokenize/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/textract/parsers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tokenstopwords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv's/unigram.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="2771" column="1" lean-forward="false" selection-start-line="2771" selection-start-column="0" selection-end-line="2771" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/nltk/metrics/distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1247971764/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="5113" column="11" lean-forward="true" selection-start-line="5113" selection-start-column="11" selection-end-line="5113" selection-end-column="11" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_from_pdf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state relative-caret-position="2055">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1497853149742" expanded="true" signature="2384:2433" ph="INSERT INTO unigram... " />
-            <marker date="1497853149742" expanded="true" signature="2612:2670" ph="INSERT INTO bigram... " />
-            <marker date="1497853149742" expanded="true" signature="2858:2926" ph="INSERT INTO trigram... " />
-            <marker date="1497853149742" expanded="true" signature="3123:3202" ph="INSERT INTO fourgram... " />
-            <marker date="1497853149742" expanded="true" signature="3432:3520" ph="INSERT INTO fivegram... " />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1498902575742" expanded="true" signature="3092:3141" ph="INSERT INTO unigram... " />
+            <marker date="1498902575742" expanded="true" signature="3329:3387" ph="INSERT INTO bigram... " />
+            <marker date="1498902575742" expanded="true" signature="3584:3652" ph="INSERT INTO trigram... " />
+            <marker date="1498902575742" expanded="true" signature="3858:3937" ph="INSERT INTO fourgram... " />
+            <marker date="1498902575742" expanded="true" signature="4178:4266" ph="INSERT INTO fivegram... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv's/trigram.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv's/unigram.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12021">
+          <caret line="2389" column="10" lean-forward="true" selection-start-line="2389" selection-start-column="10" selection-end-line="2389" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/nltk/metrics/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/corpus_ngrams.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="239" column="27" lean-forward="true" selection-start-line="239" selection-start-column="27" selection-end-line="239" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="341" column="16" lean-forward="true" selection-start-line="341" selection-start-column="16" selection-end-line="341" selection-end-column="16" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1497860449717" expanded="true" signature="2490:2508" ph="DROP TABLE u... " />
-            <marker date="1497860449717" expanded="true" signature="2533:2550" ph="DROP TABLE b... " />
-            <marker date="1497860449717" expanded="true" signature="2575:2593" ph="DROP TABLE t... " />
-            <marker date="1497860449717" expanded="true" signature="2618:2637" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2662:2681" ph="DROP TABLE f... " />
-            <marker date="1497860449717" expanded="true" signature="2766:2817" ph="CREATE TABLE... words" />
-            <marker date="1497860449717" expanded="true" signature="2842:2905" ph="CREATE TABLE... bigram" />
-            <marker date="1497860449717" expanded="true" signature="2930:3006" ph="CREATE TABLE... trigram" />
-            <marker date="1497860449717" expanded="true" signature="3031:3121" ph="CREATE TABLE... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="3146:3248" ph="CREATE TABLE... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="3424:3473" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="3652:3710" ph="INSERT INTO bigram... " />
-            <marker date="1497860449717" expanded="true" signature="3898:3966" ph="INSERT INTO words... " />
-            <marker date="1497860449717" expanded="true" signature="4163:4242" ph="INSERT INTO fourgram... " />
-            <marker date="1497860449717" expanded="true" signature="4472:4560" ph="INSERT INTO fivegram... " />
-            <marker date="1497860449717" expanded="true" signature="4735:4755" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="4891:4912" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="5058:5080" ph="SELECT * FRO... fourgram" />
-            <marker date="1497860449717" expanded="true" signature="5238:5260" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="5497:5518" ph="SELECT * FRO... unigram" />
-            <marker date="1497860449717" expanded="true" signature="5916:5936" ph="SELECT * FRO... bigram" />
-            <marker date="1497860449717" expanded="true" signature="6357:6378" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="6813:6835" ph="SELECT * FRO... trigram" />
-            <marker date="1497860449717" expanded="true" signature="7283:7305" ph="SELECT * FRO... fivegram" />
-            <marker date="1497860449717" expanded="true" signature="7804:7825" ph="SELECT * FRO... unigram" />
+            <element signature="e#5538#5933#0" expanded="false" />
+            <element signature="e#5956#6372#0" expanded="false" />
+            <element signature="e#6396#6826#0" expanded="false" />
+            <element signature="e#6851#7295#0" expanded="false" />
+            <element signature="e#7320#7778#0" expanded="false" />
+            <element signature="e#8341#8362#0" expanded="false" />
+            <marker date="1499207023445" expanded="true" signature="5603:5624" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="6021:6041" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="6461:6482" ph="SELECT * FRO... trigram" />
+            <marker date="1499207023445" expanded="true" signature="6916:6938" ph="SELECT * FRO... fourgram" />
+            <marker date="1499207023445" expanded="true" signature="7385:7407" ph="SELECT * FRO... fivegram" />
+            <marker date="1499207023445" expanded="true" signature="11690:11711" ph="SELECT * FRO... unigram" />
+            <marker date="1499207023445" expanded="true" signature="12067:12087" ph="SELECT * FRO... bigram" />
+            <marker date="1499207023445" expanded="true" signature="12453:12474" ph="SELECT * FRO... trigram" />
           </folding>
         </state>
       </provider>
